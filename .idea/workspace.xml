@@ -13,6 +13,9 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
@@ -172,7 +175,7 @@
       <workItem from="1577711145833" duration="8718000" />
       <workItem from="1577719898604" duration="7902000" />
       <workItem from="1577756744550" duration="2564000" />
-      <workItem from="1577797376240" duration="1849000" />
+      <workItem from="1577797376240" duration="2154000" />
     </task>
     <servers />
   </component>
