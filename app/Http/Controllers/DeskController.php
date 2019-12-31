@@ -14,7 +14,7 @@ class DeskController extends Controller
     {
         if(Auth::user()->level=='admin')
         {
-            $allDesk = Desk::simplePaginate(10);
+            $allDesk = Desk::paginate(10);
         }
         else
         {
@@ -84,7 +84,7 @@ class DeskController extends Controller
 
         if(Auth::user()->level=='admin')
         {
-            $allDesk = Desk::simplePaginate(10);
+            $allDesk = Desk::paginate(10);
         }
         else
         {

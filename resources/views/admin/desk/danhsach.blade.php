@@ -44,11 +44,11 @@
                     @endif
                 </tr>
             @endforeach
-            @if(Auth::user()->level=='admin')
-                {{$allDesk->links()}}
-            @endif
             </tbody>
         </table>
+        @if(Auth::user()->level=='admin')
+            {{$allDesk->links()}}
+        @endif
     </div>
 @endsection
 
