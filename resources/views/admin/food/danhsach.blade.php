@@ -45,7 +45,7 @@
                         @if(empty($rp2))
 
                             <a href="admin/recipe/them/{{$fd->id}}">
-                                <span class="btn btn-primary"> Tạo công thức</span>
+                                <span class="btn btn-primary"> Tạo công thức (Chỉ quản lý được tạo)</span>
                             </a>
 
                         @else
